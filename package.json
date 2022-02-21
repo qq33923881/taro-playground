@@ -55,6 +55,7 @@
     "@tarojs/runtime": "3.4.3",
     "@tarojs/taro": "3.4.3",
     "@tarojs/taro-rn": "3.4.3",
+    "expo": "^44.0.6",
     "expo-av": "~9.2.3",
     "expo-barcode-scanner": "~10.2.2",
     "expo-brightness": "~9.2.2",
