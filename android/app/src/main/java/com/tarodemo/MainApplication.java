@@ -2,6 +2,7 @@ package com.tarodemo;
 
 import android.content.res.Configuration;
 import expo.modules.ApplicationLifecycleDispatcher;
+import expo.modules.ReactNativeHostWrapper;
 
 import android.app.Application;
 import android.content.Context;
@@ -20,7 +21,7 @@ public class MainApplication extends Application implements ReactApplication {
 
   @Override
   public ReactNativeHost getReactNativeHost() {
-    return TaroDevManager.getReactNativeHost();
+    return new ReactNativeHostWrapper(this, TaroDevManager.getReactNativeHost());
   }
 
   @Override
