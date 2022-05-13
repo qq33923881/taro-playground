@@ -23,7 +23,7 @@ env:
   # 版本号
   ANDROID_VERSION_CODE: 14700
   # 密钥库文件
-  ANDROID_KEYSTORE_FILE: release.keystore
+  ANDROID_KEYSTORE_FILE: default.keystore
   # 密钥库口令
   ANDROID_KEYSTORE_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
   # 密钥库别名
