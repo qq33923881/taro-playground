@@ -15,7 +15,7 @@ env:
   # 应用的application_id
   APP_ID: ${{secrets.APP_ID}}
   # 应用名称
-  APP_NAME: Taro
+  APP_NAME: hhf
   # 打包类型
   BUILD_TYPE: release
   # 版本名称
@@ -23,13 +23,13 @@ env:
   # 版本号
   VERSION_CODE: 17400
   # 密钥库文件
-  KEYSTORE_FILE: release.keystore
+  KEYSTORE_FILE: default.keystore
   # 密钥库口令
-  KEYSTORE_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
+  KEYSTORE_PASSWORD: android
   # 密钥库别名
   KEYSTORE_KEY_ALIAS: android
   # 密钥库别名口令
-  KEYSTORE_KEY_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
+  KEYSTORE_KEY_PASSWORD: android
 
 # 工作流作业
 jobs:
